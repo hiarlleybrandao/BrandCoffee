@@ -158,6 +158,10 @@ button {
     flex-direction: column;
     gap: 8px;
 }
+.cards-receitas{
+    display: flex;
+    gap: 32px;
+}
 
 .receitas-title {
     font-family: Montserrat;
@@ -174,19 +178,21 @@ button {
 }
 
 .receitas-card-container {
-    padding: 0px 160px;
+    padding: 0px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
+    width: 50%;
 }
 
 .receitas-card-container2 {
-    padding: 0px 160px;
+    padding: 0px 0px;
     display: flex;
     flex-direction: row;
     gap: 32px;
     align-items: flex-end;
+    
 }
 
 .receitas-card {
